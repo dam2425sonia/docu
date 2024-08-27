@@ -1,7 +1,35 @@
 # Normas para realizar las entregas
 
-Una vez realizada la tarea o tareas correspondientes se seguirán unas pautas para realizar las entregas, ver el archivo correspondiente.
+Una vez realizada la tarea o tareas correspondientes se seguirán unas pautas para realizar las entregas, ver el archivo correspondiente (DAM-Normas para realizar las entregas).
 
+### Este es el resumen:
+
+-	Comprime los scripts en un .zip
+-	El archivo .zip se nombrará siguiendo las siguientes pautas:
+-	apellido1_apellido2_nombre_SIGxx_Temaxx_Tareaxx
+-	Asegúrate que el nombre no contenga la letra ñ, tildes ni caracteres especiales extraños. Así por ejemplo la alumna Begoña Fernández Moñas debería nombrar esta tarea como...
+-	fernandez_monas_begona_BD02_Tema1_Tarea1
+-	fernandez_monas_begona_AD02_Tema6_Tarea1
+-	Una vez tengas los scripts preparados almacénalos en tu plataforma GitHub, súbelos a tu repositorio. Puedes crear un repositorio para cada asignatura (BD, AD, …) y luego dentro del repositorio almacenar las tareas por temas (carpeta Tema1, Tema2…) ó como tú decidas.
+-	Y antes de la fecha de entrega realiza la entrega compartiéndolos con el tutor o tutora correspondiente.
+
+### ¿Qué es GitHub?
+
+GitHub es una plataforma donde puedes almacenar, compartir y trabajar junto con otros usuarios para escribir código.
+Almacenar tu código en un "repositorio" en GitHub te permite:
+-	Presentar o compartir el trabajo.
+-	Seguir y administrar los cambios en el código a lo largo del tiempo.
+-	Dejar que otros usuarios revisen el código y realicen sugerencias para mejorarlo.
+-	Colaborar en un proyecto compartido, sin preocuparse de que los cambios afectarán al trabajo de los colaboradores antes de que esté listo para integrarlos.
+
+El trabajo colaborativo, una de las características fundamentales de GitHub, es posible gracias al software de código abierto Git, en el que se basa GitHub.
+
+### Crea tu cuenta en GitHub
+
+Para empezar a trabajar con GitHub, deberás crear una cuenta personal gratuita en GitHub.com y comprobar la dirección de correo electrónico.
+Cada persona que utilice GitHub.com deberá iniciar sesión en una cuenta personal. Tu cuenta personal es tu identidad en GitHub.com y tiene un nombre de usuario y perfil.
+Consulta este enlace para crear la cuenta:
+https://docs.github.com/es/get-started/start-your-journey/creating-an-account-on-github
 
 # Como escribir un README.md correctamente, lenguaje Markdown
 
@@ -13,59 +41,4 @@ Permite mezclar HTML.
 Es accesible.
 Visual Studio Code ofrece un soporte muy bueno a este formato, tanto built-in como a nivel de ecosistema de plugins.
 
-Si no conoces Markdown, puedes chequear esta guía
-
-Manos a la obra
-Si usamos VS Code tenemos la opción de ir escribiendo nuestro markdown y poder a la vez como queda esto en una ventana de previsualización.
-
-Vamos a crear nuestro primer fichero md:
-
-Creamos un archivo nuevo File >> New File, aquí tenemos dos opciones:
-
-VSCode nos permite indicarle que el formato del nuevo fichero es markdown.
-También podemos darle extensión md y ya lo reconoce automáticamente.
-Vamos a introducir un texto de ejemplo:
-
-# Hola markdown
-
-Este es un texto de prueba
-La ventana del editor no está mal, se ve algo marcado con colores, pero lo suyo es tener un visor para poder chequear el resultado final, para ello Visual Studio Code nos ofrece una ventana de previsualización ¿Cómo podemos activarla? Pulsando en el icono de lupa que hay en la derecha de la aplicación (otras formas de hacerlo: botón derecho y elegir del menú de contexto Open Preview to the side)
-
-Bloques de código
-Este visor de Markdown soporta bloques de código, sólo tenemos que indicarlo con los tres backticks y decirle de que lenguaje estamos hablando, podemos añadir lo siguiente:
-
-Para introducir estos bloques de código, dependiendo del editor de Markdown que estemos utilizando, usará tres comillas invertidas (```) o tres tildes ( ~~~) en las líneas antes y después del bloque de código.
-
-```tsx
-export const component = () => <h1>Hola Mundo</h1>
-```
-Si por ejemplo queremos que se nos muestre un json formateado, podríamos hacerlo de la siguiente manera
-
-```json
-{
-  "name": "Antonio",
-  "company": "Tregue",
-  "Country": "España"
-}
-```
-Renderizado quedaría:
-
-{
-  "name": "Antonio",
-  "company": "Tregue",
-  "Country": "España"
-}
-Etiquetas HTML
-El estándar de Markdown está muy bien, pero hay sitios en los que nos hace falta un poquito más, ¿Qué podemos hacer en estos casos? Tenemos la opción de mezclar HTML y Markdown.
-
-Por ejemplo: Queremos mostrar la imagen de un logo, podemos hacer algo así como
-
-![aqui va el logo](https://workingful-pro-lemoncode.s3.eu-west-3.amazonaws.com/lemoncode-tv/cursos/lesson/vscode-markdown-basico/logo.png)
-Peero, queremos que sólo ocupa 180 píxeles de ancho, para ello reemplazamos la línea que hemos creado antes por html:
-
-- ![aqui va el logo](./content/logo.png)
-+ <img src="./content/logo.png" width="180px" />
-supongamos que tenemos una imagen con un logo y queremos que ocupe un ancho en concreto, en Markdown podemos añadir imágenes, pero no podemos indicarle el ancho, para ello podemos usar directamente html:
-
-<img src="./content/logo.png" width="90px" />
-Si lo renderizamos lo veríamos de la siguiente forma:
+Si no conoces Markdown, puedes chequear esta guía https://www.markdownguide.org/basic-syntax/
