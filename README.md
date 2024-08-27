@@ -1,21 +1,29 @@
 # Normas para realizar las entregas
 
-Una vez realizada la tarea o tareas correspondientes se seguirán unas pautas para realizar las entregas, ver el archivo correspondiente (DAM-Normas para realizar las entregas).
-
-### Este es el resumen:
+Una vez realizada la tarea o tareas correspondientes se seguirán unas pautas para realizar las entregas:
 
 -	Comprime los scripts en un .zip
 -	El archivo .zip se nombrará siguiendo las siguientes pautas:
--	apellido1_apellido2_nombre_SIGxx_Temaxx_Tareaxx
+
+    apellido1_apellido2_nombre_SIGxx_Temaxx_Tareaxx
+
 -	Asegúrate que el nombre no contenga la letra ñ, tildes ni caracteres especiales extraños. Así por ejemplo la alumna Begoña Fernández Moñas debería nombrar esta tarea como...
--	fernandez_monas_begona_BD02_Tema1_Tarea1
--	fernandez_monas_begona_AD02_Tema6_Tarea1
--	Una vez tengas los scripts preparados almacénalos en tu plataforma GitHub, súbelos a tu repositorio. Puedes crear un repositorio para cada asignatura (BD, AD, …) y luego dentro del repositorio almacenar las tareas por temas (carpeta Tema1, Tema2…) ó como tú decidas.
+
+    fernandez_monas_begona_BD02_Tema1_Tarea1
+
+    fernandez_monas_begona_AD02_Tema6_Tarea1
+ 
+-	Una vez tengas los scripts preparados almacénalos en tu plataforma **GitHub**, súbelos a tu repositorio. Puedes crear un repositorio para cada asignatura (BD, AD, …) y luego dentro del repositorio almacenar las tareas por temas (carpeta Tema1, Tema2…) ó como tú decidas.
 -	Y antes de la fecha de entrega realiza la entrega compartiéndolos con el tutor o tutora correspondiente.
+
+A continuación conceptos básicos de la plataforma GitHub que tendrás que conocer para poder compartir tus tareas. Repetimos que es lo básico para poder compartir tus tareas, https://docs.github.com/es/get-started/start-your-journey
+Si quieres conocer más a fondo esta plataforma en internet encontrarás un montón de tutoriales y explicaciones.
+
+***Nota***: Actualmente en el ámbito laboral **GitHub** y **Git** se utilizan a diario como plataformas para el control de cambios en nuestros proyectos. Deberías empezar a familiarizarte con ellas (normalmente se utilizan juntas).
 
 ### ¿Qué es GitHub?
 
-GitHub es una plataforma donde puedes almacenar, compartir y trabajar junto con otros usuarios para escribir código.
+**GitHub** es una plataforma donde puedes almacenar, compartir y trabajar junto con otros usuarios para escribir código.
 Almacenar tu código en un "repositorio" en GitHub te permite:
 -	Presentar o compartir el trabajo.
 -	Seguir y administrar los cambios en el código a lo largo del tiempo.
